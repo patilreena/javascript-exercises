@@ -88,5 +88,18 @@ else if(userName) {
 }
 else {
 	console.log('try again later')
+
+}
+
+
+//  if/else Statements
+
+// "If something is true, let's do option 1, or else, if it is false, let's do option 2."
+
+let javaScript = true;
+if (javaScript == true) {
+	console.log('you are master in JavaScript');
+} else {
+	console.log('start learning JavaScript')
 }
 
