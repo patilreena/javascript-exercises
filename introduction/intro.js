@@ -71,6 +71,8 @@ console.log(Math.ceil(43.8));
 
 console.log(Number.isInteger(99));
 
+// A simple if else if program
+
 let userName = 'smith';
 let knowsJavaScript = false;
 
