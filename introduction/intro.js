@@ -113,3 +113,10 @@ if(wordCount) {
 	console.log('Not Great!');
 }
 
+let javaScript1 = true;
+ if (!javaScript1) {
+ 	console.log('true')
+ } else {
+ 	console.log('false');
+ }
+
