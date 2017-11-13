@@ -72,18 +72,15 @@ console.log(Math.ceil(43.8));
 console.log(Number.isInteger(99));
 
 let userName = 'smith';
-let knowsJavascript = false;
+let knowsJavaScript = false;
 
-if(userName && knowsJavascript) {
-	console.log('hi' + userName + 'you are ready to learn');
-}
-else if(userName) {
-	console.log('Hi' + userName + 'start your course');
-}
-else if(knowsJavascript) {
-	console.log('knowsJavascript');
-}
-else {
-	console.log('please login' + knowsJavascript);
+if (knowsJavaScript && userName) {
+  console.log('Great, ' + userName + '! Get ready to practice your JavaScript!');
+} else if (knowsJavaScript) {
+  console.log('Great! Get ready to practice your JavaScript!');
+} else if (userName) {
+  console.log('Great, ' + userName + '! Get ready to learn something new!');
+} else {
+  console.log('Great! Get ready to learn something new!');
 }
 
