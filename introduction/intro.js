@@ -70,3 +70,20 @@ console.log(Math.ceil(43.8));
 // Number.isInteger()checks if a number is an integer.
 
 console.log(Number.isInteger(99));
+
+let userName = 'smith';
+let knowsJavascript = false;
+
+if(userName && knowsJavascript) {
+	console.log('hi' + userName + 'you are ready to learn');
+}
+else if(userName) {
+	console.log('Hi' + userName + 'start your course');
+}
+else if(knowsJavascript) {
+	console.log('knowsJavascript');
+}
+else {
+	console.log('please login' + knowsJavascript);
+}
+
