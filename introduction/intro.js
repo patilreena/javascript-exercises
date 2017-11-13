@@ -103,3 +103,13 @@ if (javaScript == true) {
 	console.log('start learning JavaScript')
 }
 
+// True and False Values
+
+let wordCount = false
+
+if(wordCount) {
+	console.log('Great!');
+} else {
+	console.log('Not Great!');
+}
+
