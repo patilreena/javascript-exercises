@@ -145,5 +145,53 @@ if (moonPhase === 'full') {
   console.log('Invalid moon phase')
 }
 
+// Logical Operators
+
+let name = false;
+let lname = false;
+
+if (name === false && lname === false) {
+	console.log('my name is');
+} else if(name === false) {
+	console.log('reena')
+} else if(lname ===false) {
+	console.log('giri')
+} else {
+	console.log('dummi');
+}
+
+let color = 'green';
+let danger = false;
+
+if( color === 'green' && danger === false) {
+	console.log('a');
+} else {
+	console.log('b');
+}
+
+
+
+//switch statements
+
+let friendName = 'sara';
+
+switch (friendName) {
+	case 'kevin':
+	console.log('nooooo');
+	break;
+
+	case 'james':
+	console.log('no');
+	break;
+
+	case 'sara':
+	console.log('yesssss');
+	break;
+
+	default:
+	console.log('invalid');
+	break;
+
+}
 
 
