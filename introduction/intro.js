@@ -205,6 +205,16 @@ switch (friendName) {
 
 
 const length = (name) => {
+	
 	return name.length;
 }
 console.log(length('code'));
+
+
+// program to check if the paramater is number or not
+
+const number = ( input ) => {
+    return !isNaN( input );
+}
+
+console.log(number(99)); 
