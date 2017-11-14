@@ -211,10 +211,17 @@ const length = (name) => {
 console.log(length('code'));
 
 
-// program to check if the paramater is number or not
+// program to check if the parameter is number or not
 
 const number = ( input ) => {
     return !isNaN( input );
 }
 
 console.log(number(99)); 
+
+// Write a function to calculate sum of an array
+
+const sum = [1,2,3,4].reduce((a,b) => a + b, 0);
+console.log(sum);
+
+
