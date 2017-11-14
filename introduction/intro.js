@@ -194,4 +194,17 @@ switch (friendName) {
 
 }
 
+// Functions
 
+//A function is a block of code designed to perform a task.
+
+//The beauty of functions is that they allow us to write a block of code once, then we can reuse it 
+//over and over without rewriting the same code.
+
+// Length of a string
+
+
+const length = (name) => {
+	return name.length;
+}
+console.log(length('code'));
