@@ -224,4 +224,21 @@ console.log(number(99));
 const sum = [1,2,3,4].reduce((a,b) => a + b, 0);
 console.log(sum);
 
+//write a function to calculate find a value in array
+  
+// 		let array = [1,2,3,4,5];
+// const value = array.find(x => x.number === 5);
+// const index = array.indexOf(value) > -1;
+// array.fill(value.number = 5, index, index++);
+
+//Write a function to add two numbers
+
+const add = (number1, number2) => {
+   console.log(number1 + number2);
+}
+add(5,50);
+
+
+
+
 
