@@ -238,6 +238,24 @@ const add = (number1, number2) => {
 }
 add(5,50);
 
+// A simple function to check wheather the calculator is on or off
+
+let calculatorIsOn = false;
+
+const powerbutton = () => {
+	if(calculatorIsOn) {
+		console.log('on');
+		calculatorIsOn = false;
+	}
+	else {
+		console.log('off');
+		calculatorIsOn = true;
+	}
+}
+
+powerbutton();
+
+
 
 
 
