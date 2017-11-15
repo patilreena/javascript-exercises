@@ -374,6 +374,15 @@ numbers.push('four','five');
 console.log(numbers);
 
 
+
+
+// .shift() removes last item of an array. 
+
+const birds = ['owl','parrot','gulls','crow'];
+birds.shift();
+console.log(birds);
+
+
   
 
 
