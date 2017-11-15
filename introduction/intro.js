@@ -301,6 +301,11 @@ const addnum = (num1,num2) => {
 console.log(addnum(5,5));
 
 
+//Arrow Functions
+
+const multiply = number => number * number;
+console.log(multiply(10,10));
+
 
 
 
