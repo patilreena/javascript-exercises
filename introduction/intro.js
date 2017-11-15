@@ -376,11 +376,19 @@ console.log(numbers);
 
 
 
-// .shift() removes last item of an array. 
+// .shift() method removes last item of an array. 
 
 const birds = ['owl','parrot','gulls','crow'];
 birds.shift();
 console.log(birds);
+
+
+
+// .unshift() method add first item of an array.
+
+const animals = ['tiger','lion','camel','gorila'];
+animals.unshift('dog');
+console.log(animals);
 
 
   
