@@ -391,6 +391,13 @@ animals.unshift('dog');
 console.log(animals);
 
 
+// The slice() method returns the selected elements in an array, as a new array object.
+//The slice() method selects the elements starting at the given start argument, and ends at,
+// but does not include, the given end argument.
+
+const juice = ['Apple Juice','Blackberry Juice','Carrot','cherry juice'];
+console.log(juice.slice(1,3));
+
   
 
 
