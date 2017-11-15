@@ -367,6 +367,13 @@ console.log(seasons);
 console.log(seasons.length);
 
 
+// .push() allows us to add items to the end of an array. 
+
+const numbers = ['one','two','three']
+numbers.push('four','five');
+console.log(numbers);
+
+
   
 
 
