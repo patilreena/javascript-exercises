@@ -307,6 +307,19 @@ const multiply = number => number * number;
 console.log(multiply(10,10));
 
 
+// Global scope
+
+const firstName = 'sara';
+const lastName = 'Hyland';
+
+const user = () => {
+	return 'My name is' + ' '+ firstName + ' , ' + 'my lastName is' + ' ' + lastName;
+}
+
+console.log(user());
+
+
+
 
 
 
