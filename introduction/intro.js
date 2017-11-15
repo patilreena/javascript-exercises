@@ -359,6 +359,13 @@ console.log(listItem);
 console.log(newYearsResolution[3]);
 
 
+// update array elements
+
+let seasons = ['winter','summer','spring','rainy'];
+seasons[3] = 'autumn';
+console.log(seasons);
+
+
   
 
 
