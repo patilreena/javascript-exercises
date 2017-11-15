@@ -333,6 +333,18 @@ const diff = () => {
 console.log(diff());
 
 
+//Block scope
+
+const visibleLightWaves = () => {
+	let lightWaves = 'Moonlight';
+	console.log(lightWaves());
+}
+visibleLightWaves();
+console.log(lightWaves());
+
+  
+
+
 
 
 
