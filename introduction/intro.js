@@ -364,6 +364,7 @@ console.log(newYearsResolution[3]);
 let seasons = ['winter','summer','spring','rainy'];
 seasons[3] = 'autumn';
 console.log(seasons);
+console.log(seasons.length);
 
 
   
