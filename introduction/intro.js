@@ -347,6 +347,18 @@ console.log(diff());
 let newYearsResolutions = ['Get in shape ',' Improve your concentration and mental skills',' Meet new people']
 console.log(newYearsResolutions);
 
+
+// Array property access
+
+let newYearsResolution = ['Run a marathon', 'Learn a new language', 'Read 52 books'];
+
+console.log(newYearsResolution);
+
+const listItem = newYearsResolution[0];
+console.log(listItem);
+console.log(newYearsResolution[3]);
+
+
   
 
 
