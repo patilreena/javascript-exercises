@@ -335,12 +335,17 @@ console.log(diff());
 
 //Block scope
 
-const visibleLightWaves = () => {
-	let lightWaves = 'Moonlight';
-	console.log(lightWaves());
-}
-visibleLightWaves();
-console.log(lightWaves());
+// const visibleLightWaves = () => {
+// 	let lightWaves = 'Moonlight';
+// 	console.log(lightWaves());
+// }
+// visibleLightWaves();
+// console.log(lightWaves());
+
+//create an array
+
+let newYearsResolutions = ['Get in shape ',' Improve your concentration and mental skills',' Meet new people']
+console.log(newYearsResolutions);
 
   
 
