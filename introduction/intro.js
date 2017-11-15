@@ -285,6 +285,14 @@ console.log(getSubTotal(orderCount));
 console.log(getTotal());
 
 
+//Function declaration
+
+function plus(num1, num2) {
+	return num1 + num2;
+}
+console.log(plus(9,9));
+
+
 
 
 
