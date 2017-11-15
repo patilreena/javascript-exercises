@@ -398,6 +398,12 @@ console.log(animals);
 const juice = ['Apple Juice','Blackberry Juice','Carrot','cherry juice'];
 console.log(juice.slice(1,3));
 
+//The pop method removes the last element from an array
+
+const movies = ['Beauty and the Beast','The Fate of the Furious','Wonder Woman','Guardians of the Galaxy Vol. 2'];
+movies.pop();
+console.log(movies);
+
   
 
 
