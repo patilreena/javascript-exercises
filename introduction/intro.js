@@ -319,6 +319,19 @@ const user = () => {
 console.log(user());
 
 
+//Difference between const and let
+
+const a = 'abc';
+const b = 'def';
+let c = 'xyz';
+
+const diff = () => {
+	let c = 'moon'
+	return 'difference is' + ' ' + a + ' ' + b + ' ' + c;
+};
+
+console.log(diff());
+
 
 
 
