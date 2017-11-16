@@ -460,6 +460,16 @@ let squareNumbers = squares.map(function(square) {
 console.log(squareNumbers);
 
 
+// filter method
+
+
+let things = ['desk', 'chair', 5, 'backpack', 3.14, 100];
+
+let onlyNumbers = things.filter(function(thing) {
+  return typeof thing === 'number';
+});
+
+console.log(onlyNumbers);
 
 
   
