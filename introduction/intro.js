@@ -404,6 +404,15 @@ const movies = ['Beauty and the Beast','The Fate of the Furious','Wonder Woman',
 movies.pop();
 console.log(movies);
 
+
+//for loop
+
+let vacationSpots = ['Bali', 'India', 'Nepal'];
+
+for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacationSpotIndex++) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
   
 
 
