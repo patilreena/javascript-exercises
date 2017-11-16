@@ -499,6 +499,16 @@ const person = {
 
 console.log(person);
 
+// Accessing Object properties
+
+const girl = {
+  name: 'selly',
+  age: 25
+}
+
+console.log(girl.name);
+console.log(girl.age);
+
 
   
 
