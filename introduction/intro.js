@@ -472,6 +472,15 @@ let onlyNumbers = things.filter(function(thing) {
 console.log(onlyNumbers);
 
 
+// some method
+
+let words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+
+console.log(words.some(function(word) {
+  return word.length < 6;
+}));
+
   
 
 
