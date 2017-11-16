@@ -481,6 +481,14 @@ console.log(words.some(function(word) {
   return word.length < 6;
 }));
 
+
+// every method
+
+let interestingWords = ['unique','quell','lucid','ken','karma'];
+
+console.log(interestingWords.every(word => word.length > 5));
+
+
   
 
 
