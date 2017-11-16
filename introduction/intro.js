@@ -499,7 +499,7 @@ const person = {
 
 console.log(person);
 
-// Accessing Object properties
+// Accessing Object properties using dot notation
 
 const girl = {
   name: 'selly',
@@ -509,7 +509,15 @@ const girl = {
 console.log(girl.name);
 console.log(girl.age);
 
+// Accessing Object properties using [ ] symbol
 
+const boy = {
+  name: 'kevin',
+  age: 25
+}
+
+console.log(boy['name']);
+console.log(boy['age']);
   
 
 
