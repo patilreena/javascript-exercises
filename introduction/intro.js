@@ -488,6 +488,17 @@ let interestingWords = ['unique','quell','lucid','ken','karma'];
 
 console.log(interestingWords.every(word => word.length > 5));
 
+// objects
+
+//object creation
+
+const person = {
+  name: 'selly',
+  age: 25
+}
+
+console.log(person);
+
 
   
 
