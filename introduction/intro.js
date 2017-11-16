@@ -440,13 +440,27 @@ console.log(currentCard);
 
 
 //iterators
-// forEach
+// forEach method
 
 let artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
 artists.forEach(function(artist) {
   console.log(artist + ' is one of my favorite artists.');
 });
+
+
+// map method
+
+let squares = [1, 2, 3, 4, 5];
+
+let squareNumbers = squares.map(function(square) {
+  return square * square;
+});
+
+console.log(squareNumbers);
+
+
+
 
   
 
