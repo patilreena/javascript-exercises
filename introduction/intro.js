@@ -413,6 +413,19 @@ for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacati
   console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
 }
 
+//nested for loops
+
+const p = [1,2,3,4];
+const q = [1,5,6,7];
+
+for (let px = 0; px < p.length; px++) {
+	for (let qx = 0; qx < b.length; qx++) {
+		if(p[px] === q[qx]) {
+			console.log('match' + p[px]);
+		}
+	}
+}
+
   
 
 
