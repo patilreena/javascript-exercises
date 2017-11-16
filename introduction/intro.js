@@ -438,6 +438,16 @@ while( currentCard !== 'Spade') {
 }
 console.log(currentCard);
 
+
+//iterators
+// forEach
+
+let artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
+
+artists.forEach(function(artist) {
+  console.log(artist + ' is one of my favorite artists.');
+});
+
   
 
 
