@@ -518,6 +518,31 @@ const boy = {
 
 console.log(boy['name']);
 console.log(boy['age']);
+
+// A simple alarm program to set the alarm on weekend and weekdays
+
+let women = {
+  name: 'sara',
+  age: 25,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM'
+  
+};
+
+console.log(women['name']);
+console.log(women['age']);
+
+const day = 'Thursday';
+let alarm;
+
+if(day === 'saturday' || day === 'sunday') {
+  alarm = 'weekendAlarm';
+} else {
+  alarm = 'weekAlarm';
+}
+
+console.log(women[alarm]);
+
   
 
 
