@@ -153,11 +153,11 @@ let lname = false;
 if (name === false && lname === false) {
 	console.log('my name is');
 } else if(name === false) {
-	console.log('reena')
+	console.log('aaaaaa')
 } else if(lname ===false) {
-	console.log('giri')
+	console.log('bbbbbb')
 } else {
-	console.log('dummi');
+	console.log('cccccc');
 }
 
 let color = 'green';
@@ -529,7 +529,7 @@ let women = {
 
 //this method
   sayHello: function() {
-   return `Hello, my name is ${this.name}`;
+   return `Hello, my name is ${this.name}`;  // use yield method to print the return statement dont use single ampersand
   }, 
 
   // writing method inside the object
@@ -601,7 +601,13 @@ let dance = {
 };
 
 console.log(dance.ohhh());
-  
+
+// string interpolation in EX5  
+
+let e = "trent";
+let w = "code";
+
+console.log(e + w);
 
 
 
