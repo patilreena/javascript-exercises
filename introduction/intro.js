@@ -21,6 +21,12 @@ let fname = "Sara";
 let mname = "smith";
 console.log(`${fname} ${mname}`);
 
+//string methods - includes
+
+let str = "javascript";
+let y = str.includes("j");
+console.log(y);
+
 
 // Numbers — Any number, including numbers with decimals:
 
