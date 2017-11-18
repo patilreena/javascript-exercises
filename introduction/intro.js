@@ -2,13 +2,24 @@
 
 console.log('Hello');  // In this example, Hello! is logged to the console. 
 
-
 // Data Types
 
 //strings - Any grouping of keyboard characters (letters, spaces, numbers, or symbols) surrounded by single quotes 
 // or double quotes is a string.
 
 console.log('JavaScript');
+
+// string interpolation in EX5  
+
+let e = "trent";
+let w = "code";
+console.log(e + w);
+
+// string interpolation in EX6
+
+let fname = "Sara";
+let mname = "smith";
+console.log(`${fname} ${mname}`);
 
 
 // Numbers — Any number, including numbers with decimals:
@@ -599,15 +610,9 @@ let dance = {
 		return 'ohhhhhh';
 	}
 };
-
 console.log(dance.ohhh());
 
-// string interpolation in EX5  
 
-let e = "trent";
-let w = "code";
-
-console.log(e + w);
 
 
 
