@@ -527,10 +527,18 @@ let women = {
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
 
+//this method
   sayHello: function() {
-   return 'Hello, my name is ${this.name}';
+   return `Hello, my name is ${this.name}`;
   }, 
 
+  // writing method inside the object
+
+  sayBye :() => {
+     return 'bye';
+  },
+
+// writing method inside the object using ES6
   sayGoodbye() {
   	return 'Goodbye!';
   }
@@ -579,6 +587,20 @@ const restaurant = {
 
 console.log(restaurant.openRestaurant());
 
+
+
+
+let dance = {
+	name:'bollywood',
+	age: 24,
+	lname: 'hollywood',
+
+	ohhh: () => {
+		return 'ohhhhhh';
+	}
+};
+
+console.log(dance.ohhh());
   
 
 
