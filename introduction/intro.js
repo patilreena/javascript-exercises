@@ -525,9 +525,15 @@ let women = {
   name: 'sara',
   age: 25,
   weekendAlarm: 'No alarms needed',
-  weekAlarm: 'Alarm set to 7AM'
+  weekAlarm: 'Alarm set to 7AM',
+
+  sayHello : () => {
+  	return 'Hello, there!';
+  }
   
 };
+
+console.log(women.sayHello());
 
 console.log(women['name']);
 console.log(women['age']);
