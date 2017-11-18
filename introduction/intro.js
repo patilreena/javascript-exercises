@@ -527,8 +527,8 @@ let women = {
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
 
-  sayHello : () => {
-  	return 'Hello, there!';
+  sayHello: function() {
+   return 'Hello, my name is ${this.name}';
   }, 
 
   sayGoodbye() {
@@ -560,6 +560,24 @@ console.log(women.hobbies);
 women.hobbies = ['dancing'];
 
 console.log(women.hobbies);
+
+
+
+const restaurant = {
+  name: 'Italian Bistro',
+  seatingCapacity: 120,
+  hasDineInSpecial: true,
+  entrees: ['Penne alla Bolognese', 'Chicken Cacciatore', 'Linguine pesto'],
+  openRestaurant: function() {
+    if (this.hasDineInSpecial) {
+      return 'Unlock the door, post the special on the board, then flip the open sign.'
+    } else {
+      return 'Unlock the door, then flip the open sign.'
+    }
+  }
+}
+
+console.log(restaurant.openRestaurant());
 
   
 
