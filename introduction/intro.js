@@ -2,6 +2,19 @@
 
 console.log('Hello');  // In this example, Hello! is logged to the console. 
 
+
+//Difference between const and let
+
+const a = 'abc';
+const b = 'def';
+let c = 'xyz';
+
+const diff = () => {
+	let c = 'moon'
+	return 'difference is' + ' ' + a + ' ' + b + ' ' + c;
+};
+console.log(diff());
+
 // Data Types
 
 //strings - Any grouping of keyboard characters (letters, spaces, numbers, or symbols) surrounded by single quotes 
@@ -82,12 +95,17 @@ console.log(tree.split("m"));
 // converting number to string
 
 let num = 100;
-console.log(num.String());
+console.log(String(num));
+
 // converting string to number
 
 let text = "mango";
 console.log(Number(text));
 
+// date
+
+let pizza = "italian";
+console.log("Today's date is" + " " + Date());
 
 // Numbers — Any number, including numbers with decimals:
 
@@ -100,7 +118,6 @@ console.log(true);
 // Null — Can only be null. It represents the absence of value.
 
 console.log(null);
-
 
 // Math Operators
 
@@ -136,7 +153,6 @@ console.log(Math.floor(Math.random() * 50));
 // then multiply that number by 50, so now it displays random number between 0 and 50.
 // Then, Math.floor rounds the number down to the nearest whole number.
 
-
 // Math.ceil() returns the smallest integer greater than or equal to a decimal number.
 
 console.log(Math.ceil(43.8));
@@ -144,6 +160,83 @@ console.log(Math.ceil(43.8));
 // Number.isInteger()checks if a number is an integer.
 
 console.log(Number.isInteger(99));
+
+
+//create an array
+
+let newYearsResolutions = ['Get in shape ',' Improve your concentration and mental skills',' Meet new people']
+console.log(newYearsResolutions);
+
+
+// Array property access
+
+let newYearsResolution = ['Run a marathon', 'Learn a new language', 'Read 52 books'];
+
+console.log(newYearsResolution);
+
+const listItem = newYearsResolution[0];
+console.log(listItem);
+console.log(newYearsResolution[3]);
+
+
+// update array elements
+
+let seasons = ['winter','summer','spring','rainy'];
+seasons[3] = 'autumn';
+console.log(seasons);
+console.log(seasons.length);
+
+
+//Array methods
+// .push() allows us to add items to the end of an array. 
+
+const numbers = ['one','two','three']
+numbers.push('four','five');
+console.log(numbers);
+
+//The pop method removes the last element from an array
+
+const movies = ['Beauty and the Beast','The Fate of the Furious','Wonder Woman','Guardians of the Galaxy Vol. 2'];
+movies.pop();
+console.log(movies);
+
+// .shift() method removes last item of an array. 
+
+const birds = ['owl','parrot','gulls','crow'];
+birds.shift();
+console.log(birds);
+
+// .unshift() method add first item of an array.
+
+const animals = ['tiger','lion','camel','gorila'];
+animals.unshift('dog');
+console.log(animals);
+
+// The indexOf() method returns the first index at which a given element can be found in the array,
+// or -1 if it is not present.
+
+const tv = ['a','b','c','d'];
+
+console.log(tv.indexOf('c'));
+
+//The splice() method changes the contents of an array by removing existing elements and/or adding new elements.
+
+const myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
+
+myFish.splice(2, 0, 'drum'); // insert 'drum' at 2-index position
+// myFish is ["angel", "clown", "drum", "mandarin", "sturgeon"]
+
+myFish.splice(2, 1); // remove 1 item at 2-index position (that is, "drum")
+// myFish is ["angel", "clown", "mandarin", "sturgeon"]
+console.log(myFish);
+
+
+//The slice() method returns a shallow copy of a portion of an array into a new array object selected 
+//from begin to end (end not included). The original array will not be modified.
+
+const digits = ['one','two','three','four'];
+console.log(digits.slice(0,2));
+
 
 // A simple if else if program
 
@@ -393,18 +486,6 @@ const user = () => {
 console.log(user());
 
 
-//Difference between const and let
-
-const a = 'abc';
-const b = 'def';
-let c = 'xyz';
-
-const diff = () => {
-	let c = 'moon'
-	return 'difference is' + ' ' + a + ' ' + b + ' ' + c;
-};
-
-console.log(diff());
 
 
 //Block scope
@@ -415,64 +496,6 @@ console.log(diff());
 // }
 // visibleLightWaves();
 // console.log(lightWaves());
-
-//create an array
-
-let newYearsResolutions = ['Get in shape ',' Improve your concentration and mental skills',' Meet new people']
-console.log(newYearsResolutions);
-
-
-// Array property access
-
-let newYearsResolution = ['Run a marathon', 'Learn a new language', 'Read 52 books'];
-
-console.log(newYearsResolution);
-
-const listItem = newYearsResolution[0];
-console.log(listItem);
-console.log(newYearsResolution[3]);
-
-
-// update array elements
-
-let seasons = ['winter','summer','spring','rainy'];
-seasons[3] = 'autumn';
-console.log(seasons);
-console.log(seasons.length);
-
-
-// .push() allows us to add items to the end of an array. 
-
-const numbers = ['one','two','three']
-numbers.push('four','five');
-console.log(numbers);
-
-
-
-
-// .shift() method removes last item of an array. 
-
-const birds = ['owl','parrot','gulls','crow'];
-birds.shift();
-console.log(birds);
-
-
-
-// .unshift() method add first item of an array.
-
-const animals = ['tiger','lion','camel','gorila'];
-animals.unshift('dog');
-console.log(animals);
-
-
-
-
-//The pop method removes the last element from an array
-
-const movies = ['Beauty and the Beast','The Fate of the Furious','Wonder Woman','Guardians of the Galaxy Vol. 2'];
-movies.pop();
-console.log(movies);
-
 
 //for loop
 
@@ -657,8 +680,6 @@ const restaurant = {
 console.log(restaurant.openRestaurant());
 
 
-
-
 let dance = {
 	name:'bollywood',
 	age: 24,
@@ -669,6 +690,28 @@ let dance = {
 	}
 };
 console.log(dance.ohhh());
+
+
+const momo = ['Apple', 'Banana'];
+
+console.log(momo.length);
+
+momo.forEach(function(item, index, array) {
+  console.log(item, index);
+});
+
+momo.push("orange");
+momo.pop();
+momo.shift();
+momo.unshift("pear");
+
+console.log(momo);
+console.log(momo.indexOf('pear'));
+momo.splice(1,1, 'mango');
+console.log(momo);
+momo.slice(0,1);
+console.log(momo);
+
 
 
 
