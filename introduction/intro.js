@@ -237,6 +237,16 @@ console.log(myFish);
 const digits = ['one','two','three','four'];
 console.log(digits.slice(0,2));
 
+//The find() method returns the value of the first element in the array that satisfies the provided 
+//testing function. Otherwise undefined is returned.
+
+const laptop = [{name:"lenovo"},{name:"mac"},{name:"dell"}];
+
+const lapi = (aa) => {
+  return aa.name == "lenovo";
+}
+console.log(laptop.find(lapi));
+
 
 // A simple if else if program
 
@@ -711,6 +721,10 @@ momo.splice(1,1, 'mango');
 console.log(momo);
 momo.slice(0,1);
 console.log(momo);
+
+
+
+
 
 
 
