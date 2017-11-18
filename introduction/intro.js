@@ -547,6 +547,10 @@ women.hobbies = ['reading'];
 
 console.log(women.hobbies);
 
+women.hobbies = ['dancing'];
+
+console.log(women.hobbies);
+
   
 
 
