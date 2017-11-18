@@ -37,7 +37,10 @@ console.log(char.charAt(2));
 let rep = "javaaa";
 console.log(rep.replace("j","k"));
 
+// string method substr - it includes first and last number
 
+let sub = "learning javascript";
+console.log(sub.substr(0,4));
 
 
 // converting number to string
