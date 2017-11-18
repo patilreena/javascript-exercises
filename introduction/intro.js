@@ -21,11 +21,34 @@ let fname = "Sara";
 let mname = "smith";
 console.log(`${fname} ${mname}`);
 
-//string methods - includes
+//string method - includes
 
 let str = "javascript";
 let y = str.includes("j");
 console.log(y);
+
+// string method - charAt()
+
+let char = "HTML";
+console.log(char.charAt(2));
+
+// string method - replace
+
+let rep = "javaaa";
+console.log(rep.replace("j","k"));
+
+
+
+
+// converting number to string
+
+let num = 100;
+console.log(String(num));
+
+// converting string to number
+
+let text = "mango";
+console.log(Number(text));
 
 
 // Numbers — Any number, including numbers with decimals:
