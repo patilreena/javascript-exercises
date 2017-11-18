@@ -269,43 +269,10 @@ else {
 }
 
 
-//  if/else Statements
-
-// "If something is true, let's do option 1, or else, if it is false, let's do option 2."
-
-let javaScript = true;
-if (javaScript == true) {
-	console.log('you are master in JavaScript');
-} else {
-	console.log('start learning JavaScript')
-}
-
-// True and False Values
-
-let wordCount = false
-
-if(wordCount) {
-	console.log('Great!');
-} else {
-	console.log('Not Great!');
-}
-
-let javaScript1 = true;
- if (!javaScript1) {
- 	console.log('true')
- } else {
- 	console.log('false');
- }
 
 
- // Comparison Operators
 
- let hungerLevel = 10
-if (hungerLevel > 7) {
-  console.log('Time to eat!');
-} else {
-  console.log('We can eat later!');
-}
+
 
 
 // else if Statements
@@ -721,6 +688,27 @@ momo.splice(1,1, 'mango');
 console.log(momo);
 momo.slice(0,1);
 console.log(momo);
+
+
+//seperate even and odd numbers
+const arr = [1, 2, 3, 4, 5, 6, 17, 13, 11, 100];
+const even_arr = [];
+const odd_arr = [];
+
+arr.forEach((num)=>{
+	if (num%2 === 0) {
+		even_arr.push(num);
+	}else{
+		odd_arr.push(num);
+	}
+});
+
+console.log(even_arr);
+console.log(odd_arr);
+
+
+
+
 
 
 
