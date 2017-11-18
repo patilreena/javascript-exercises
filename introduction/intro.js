@@ -543,6 +543,10 @@ if(day === 'saturday' || day === 'sunday') {
 
 console.log(women[alarm]);
 
+women.hobbies = ['reading'];
+
+console.log(women.hobbies);
+
   
 
 
