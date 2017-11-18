@@ -529,6 +529,10 @@ let women = {
 
   sayHello : () => {
   	return 'Hello, there!';
+  }, 
+
+  sayGoodbye() {
+  	return 'Goodbye!';
   }
   
 };
