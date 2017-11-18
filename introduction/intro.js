@@ -42,7 +42,21 @@ console.log(rep.replace("j","k"));
 let sub = "learning javascript";
 console.log(sub.substr(0,4));
 
+// string method - length
 
+let len = "react";
+console.log(len.length); 
+
+// string method - endswith
+
+let end = "wonder";
+console.log(end.endsWith("r"));
+
+
+// string method - startswith
+
+let star = "women";
+console.log(star.startsWith("m"));
 // converting number to string
 
 let num = 100;
@@ -84,10 +98,6 @@ console.log(9 * 9);
 //Divide
 
 console.log( 100 / 10);
-
-//Properties
-
-console.log('javascript'.length);
 
 // Built-in Methods
 
