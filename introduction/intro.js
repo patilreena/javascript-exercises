@@ -52,16 +52,37 @@ console.log(len.length);
 let end = "wonder";
 console.log(end.endsWith("r"));
 
-
 // string method - startswith
 
 let star = "women";
 console.log(star.startsWith("m"));
+
+// string method - indexof
+
+let ind = "flower";
+console.log(ind.indexOf("f"));
+
+// string method - search
+
+let see = "money";
+console.log(see.search("o"));
+
+// The slice() method returns the selected elements in an array, as a new array object.
+//The slice() method selects the elements starting at the given start argument, and ends at,
+// but does not include, the given end argument.
+
+const juice = ['Apple Juice','Blackberry Juice','Carrot','cherry juice'];
+console.log(juice.slice(1,3));
+
+// string method - split
+
+let tree = "mangos";
+console.log(tree.split("m"));
+
 // converting number to string
 
 let num = 100;
-console.log(String(num));
-
+console.log(num.String());
 // converting string to number
 
 let text = "mango";
@@ -444,12 +465,7 @@ animals.unshift('dog');
 console.log(animals);
 
 
-// The slice() method returns the selected elements in an array, as a new array object.
-//The slice() method selects the elements starting at the given start argument, and ends at,
-// but does not include, the given end argument.
 
-const juice = ['Apple Juice','Blackberry Juice','Carrot','cherry juice'];
-console.log(juice.slice(1,3));
 
 //The pop method removes the last element from an array
 
