@@ -103,3 +103,73 @@ if (Phase === 'full' && isFoggyNight === true) {
 } else {
   console.log('Invalid moon phase');
 }
+
+// switch statements
+
+let sunPhase = "mostly full";
+
+switch(sunPhase) {
+  case 'full':
+  console.log('Howl!');
+    break;
+  case 'mostly full':
+  console.log('Arms and legs are getting hairier');
+    break;
+  case 'mostly new':
+  console.log('Back on two feet');
+    break;
+  default:
+   console.log('Invalid moon phase');
+    break;
+  }
+
+// ternary operator
+// shorten simple if/else statements called the ternary operator.
+
+let isLocked = false;
+
+isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
+
+let isCorrect = true;
+
+isCorrect ? console.log('Correct!') : console.log('Incorrect!');
+
+
+
+
+
+let arr = [{name: "reena"}, {name: "Girish"}, {name: "Annapoorna"}];
+const x = arr.find((item) => {
+  return item.name === 'Annapoorna';
+});
+
+console.log(x);
+
+
+
+arr = arr.map((item) => {
+  item.city = 'Sydney';
+  return item;
+});
+
+
+//“Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the
+// number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five 
+//print “FizzBuzz”.
+
+
+for (var z = 1; z <= 100; z++) {
+  if (z % 3 && z % 5) {
+    console.log("FizzBuzz");
+  } else (z % 3); {
+    console.log("Fizz");
+  } {
+    console.log("Buzz");
+  }
+}
+
+
+
+
+
+

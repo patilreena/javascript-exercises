@@ -249,57 +249,6 @@ console.log(laptop.find(lapi));
 
 
 
-
-
-// Logical Operators
-
-let name = false;
-let lname = false;
-
-if (name === false && lname === false) {
-	console.log('my name is');
-} else if(name === false) {
-	console.log('aaaaaa')
-} else if(lname ===false) {
-	console.log('bbbbbb')
-} else {
-	console.log('cccccc');
-}
-
-let color = 'green';
-let danger = false;
-
-if( color === 'green' && danger === false) {
-	console.log('a');
-} else {
-	console.log('b');
-}
-
-
-
-//switch statements
-
-let friendName = 'sara';
-
-switch (friendName) {
-	case 'kevin':
-	console.log('nooooo');
-	break;
-
-	case 'james':
-	console.log('no');
-	break;
-
-	case 'sara':
-	console.log('yesssss');
-	break;
-
-	default:
-	console.log('invalid');
-	break;
-
-}
-
 // Functions
 
 //A function is a block of code designed to perform a task.
@@ -391,26 +340,7 @@ console.log(getSubTotal(orderCount));
 console.log(getTotal());
 
 
-//Function declaration
 
-function plus(num1, num2) {
-	return num1 + num2;
-}
-console.log(plus(9,9));
-
-
-//Function expression
-
-const addnum = (num1,num2) => {
-	return num1+num2;
-}
-console.log(addnum(5,5));
-
-
-//Arrow Functions
-
-const multiply = number => number * number;
-console.log(multiply(10,10));
 
 
 // Global scope
