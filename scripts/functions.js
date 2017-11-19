@@ -34,8 +34,32 @@ console.log(len("reena"));
 //forEach method
 
 let names = ["sara","kevin","james","jon"];
+let arr =[]; 
 
-const listOfNames = (name) => {
-  return `${names} is my name`;
-};
-console.log(listOfNames());
+names.forEach((name) => {
+	arr.push(`my name is ${names}`);
+	});
+console.log(arr);
+
+//map method
+
+let items = ["mango","apple","orange","grapes"];
+
+items = items.map((value) => {
+   return ` i like ${value} `;
+});
+
+console.log(items);
+
+// filter
+
+let words = ["chair","table","laptop",99,11];
+
+let numbers =  words.filter((word) => {
+	return typeof word === "number";
+});
+
+console.log(numbers);
+
+
+
