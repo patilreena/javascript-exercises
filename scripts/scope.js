@@ -54,15 +54,15 @@ const LightWaves = () => {
 LightWaves();
 
 //block scope - 3
-const starCount = () => {
-  let i = 5;
-  console.log(i);
-  for (i = 0; i < 12; i++) {
-    console.log(i);
-  }
-}
-starCount();
-console.log(i);
+// const starCount = () => {
+//   let i = 5;
+//   console.log(i);
+//   for (i = 0; i < 12; i++) {
+//     console.log(i);
+//   }
+// }
+// starCount();
+// console.log(i);
 
 //Global Scope refers to variables that are accessible to every part of the program.
 //Block Scope refers to variables that are accessible only within the block they are defined.
