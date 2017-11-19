@@ -248,46 +248,8 @@ const lapi = (aa) => {
 console.log(laptop.find(lapi));
 
 
-// A simple if else if program
-
-let userName = 'smith';
-let knowsJavascript = false;
-
-if (knowsJavascript && userName) {
-	console.log('Hi' + userName + 'start doing revision')
-}
-else if(knowsJavascript) {
-	console.log(userName + 'lets strat reading')
-}
-
-else if(userName) {
-	console.log('Hi' + userName + 'welcome to JavaScript tutorial')
-}
-else {
-	console.log('try again later')
-
-}
 
 
-
-
-
-
-
-
-// else if Statements
-
-let moonPhase = 'solar eclipse';
-
-if (moonPhase === 'full') {
-  console.log('Howl!');
-} else if(moonPhase === 'mostly full'){
-   console.log('Arms and legs are getting hairier');
-} else if (moonPhase === 'mostly new'){
-  console.log('Back on two feet');
-} else {
-  console.log('Invalid moon phase')
-}
 
 // Logical Operators
 
