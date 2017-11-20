@@ -29,12 +29,15 @@ console.log(movies.name);
 
 
 let films = [{name:"Forest", year:2000}, {name:"Gump", year:1999}];
+console.log(films[0].name,films[0].year);
 
 // const movie = films((value) => {
 //   return value.name;
 // });
 
-console.log(films[0].name,films[0].year);
+
+
+
 
 
 
