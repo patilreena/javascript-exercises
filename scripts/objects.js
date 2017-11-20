@@ -36,6 +36,19 @@ console.log(films[0].name,films[0].year);
 // });
 
 
+let name = "Reena";
+let lastName = "Patil";
+
+const details = function(name,lastName) {
+	return `Hello my name is ${name} ${lastName}`;
+}
+
+console.log(details(name,lastName));
+
+
+
+
+
 
 
 
