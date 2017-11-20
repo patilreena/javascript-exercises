@@ -49,6 +49,35 @@ console.log(details(name,lastName));
 
 
 
+let fruits = [{
+		name:"apple",
+		color:"red",
+		taste : ["sweet", "bitter", "sour"],
+		family : {
+			type: "Hard",
+			origin: "Kashmir"
+		}
+	}, {
+		name:'grapes',
+		color:'green',
+		taste : ["sweet", "sour"],
+		family : {
+			type: "soft",
+			origin: "Thimmapur"
+		},
+	}];
+
+fruits.forEach((fruit) => {
+	fruit.taste.forEach((taste) => {
+		console.log(taste);
+	})
+	console.log(`${fruit.family.type} ${fruit.family.origin}`)
+});
+
+
+
+
+
 
 
 
