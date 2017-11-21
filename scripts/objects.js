@@ -140,6 +140,7 @@ shoppingCart.forEach((product) => {
 });
 
 
+// constructor
 
 function Mobile(name,price) {
 	this.name = name;
@@ -153,6 +154,7 @@ function Mobile(name,price) {
  var samsung = new Mobile("samsung",200);
 
 
+// constructor
 
  function OrderItem(name,quantity,unit_price,gst) {
  	this.name = name;
@@ -168,6 +170,17 @@ function Mobile(name,price) {
 }
 
 var jeans = new OrderItem("bluejeans",3,100,13);
+
+
+
+function Movie(name,ratings,reviews) {
+	this.name = name;
+	this.ratings = ratings;
+	this.reviews = reviews;
+	}
+
+
+let film = new Movie("wonder women",5,"good");
 
 
 
