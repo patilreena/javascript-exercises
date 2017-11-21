@@ -132,11 +132,25 @@ let shoppingCart = [{
 	total_gst:function() {
 		return this.total_price() * this.gst / 100;
 	}
-}]
+}];
+
 let total_price = 0;
 shoppingCart.forEach((product) => {
   total_price += product.total_price() + product.total_gst();
 });
+
+
+
+function Mobile(name,price) {
+	this.name = name;
+	this.price = price;
+	this.getName = function() {
+		return this.name;
+	}
+}
+ 
+ var iphone = new Mobile("iphone",100);
+ var samsung = new Mobile("samsung",200);
 
 
 
