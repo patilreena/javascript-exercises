@@ -90,11 +90,56 @@ console.log(Person2.getName());
 
 let z = {
 
-}
+};
 
 z.name = "reena";
 
 console.log(z);
+
+
+// shopping cart program
+
+let shoppingCart = [{
+	name :"pant",
+	quantity: 3,
+	unit_price: 100,
+	total_price:function() {
+		return this.quantity * this.unit_price;
+	},
+	gst:10,
+	total_gst:function() {
+		return this.total_price() * this.gst / 100;
+	}
+},{
+	name :"top",
+	quantity: 2,
+	unit_price: 300,
+	total_price:function() {
+		return this.quantity * this.unit_price;
+	},
+	gst:13,
+	total_gst:function() {
+		return this.total_price() * this.gst / 100;
+	}
+},{
+	name :"t-shirt",
+	quantity: 10,
+	unit_price: 1000,
+	total_price:function() {
+		return this.quantity * this.unit_price;
+	},
+	gst:2,
+	total_gst:function() {
+		return this.total_price() * this.gst / 100;
+	}
+}]
+let total_price = 0;
+shoppingCart.forEach((product) => {
+  total_price += product.total_price() + product.total_gst();
+});
+
+
+
 
 
 
