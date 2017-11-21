@@ -74,6 +74,30 @@ fruits.forEach((fruit) => {
 	console.log(`${fruit.family.type} ${fruit.family.origin}`)
 });
 
+function Person(name) {
+ this.name = name;
+ this.getName = function() {
+ 	return this.name;
+ }
+ 
+}
+
+var Person1 = new Person('reena');
+console.log(Person1.getName());
+var Person2 = new Person('sana');
+console.log(Person2.getName());
+
+
+let z = {
+
+}
+
+z.name = "reena";
+
+console.log(z);
+
+
+
 
 
 
