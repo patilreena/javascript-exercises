@@ -154,6 +154,23 @@ function Mobile(name,price) {
 
 
 
+ function OrderItem(name,quantity,unit_price,gst) {
+ 	this.name = name;
+ 	this.quantity = quantity;
+ 	this.unit_price = unit_price;
+ 	this.gst = gst;
+ 	this.total_price = function() {
+ 		return this.quantity * this.unit_price;
+ 	}
+ 	this.total_gst = function() {
+ 		return this.total_price() * this.gst / 100;
+ 	}
+}
+
+var jeans = new OrderItem("bluejeans",3,100,13);
+
+
+
 
 
 
