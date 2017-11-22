@@ -11,6 +11,19 @@ const value = numbers.map((item) => {
 });
 console.log(value);
 
+// editing properties in objects
+
+let person = {
+  name :"reena",
+  age: 25,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm:'Alarm set to 7AM'
+  }
+person.hobbies = ['reading','singing'];
+person.hobbies = ['dancing'];
+console.log(person.hobbies);
+
+
 let day = 25;
 let month = "december";
 let date = new Date(2017, 11, 25);
@@ -34,6 +47,7 @@ console.log(films[0].name,films[0].year);
 // const movie = films((value) => {
 //   return value.name;
 // });
+
 
 
 let name = "Reena";
