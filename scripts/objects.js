@@ -23,6 +23,35 @@ person.hobbies = ['reading','singing'];
 person.hobbies = ['dancing'];
 console.log(person.hobbies);
 
+// methods
+
+let person = {
+  name :"reena",
+  age: 25,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm:'Alarm set to 7AM',
+  sayHello: function ()  {
+    return 'Hello, there!';
+}
+  }
+console.log(person.sayHello());
+
+
+// this keyword
+
+let person = {
+  name :"reena",
+  age: 25,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm:'Alarm set to 7AM',
+  sayHello: function ()  {
+    return `Hello, my name is ${this.name}`;
+},
+  sayGoodbye(hi)  {
+   return 'Goodbye!';
+}
+  }
+
 
 let day = 25;
 let month = "december";
