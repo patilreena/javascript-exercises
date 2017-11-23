@@ -1,3 +1,97 @@
+// class 
+
+class Surgeon {
+
+}
+
+// constructor
+
+class Surgeon {
+  constructor(name,department) {
+    this.name = name;
+    this.department = department;
+  }
+}
+
+// instance
+
+class Surgeon {
+  constructor(name,department) {
+    this.name = name;
+    this.department = department;
+  }
+}
+const surgeonCurry = new Surgeon('Curry','Cardiovascular');
+const surgeonDurant = new Surgeon('Durant','Orthopedics');
+
+// methods - getter
+
+class Surgeon {
+  constructor(name, department) {
+    this._name = name;
+    this._department = department;
+    this._remainingVacationDays = 20;
+  }
+  
+  get name() {
+    return this._name;
+  }
+  
+  get department() {
+    return this._department;
+  }
+  
+  get remainingVacationDays() {
+    return this._remainingVacationDays;
+  }
+  
+  //method
+  takeVacationDays(daysOff) {
+    this._remainingVacationDays -= daysOff;
+  }
+}
+const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
+const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
+
+// method calls
+
+class Surgeon {
+  constructor(name, department) {
+    this._name = name;
+    this._department = department;
+    this._remainingVacationDays = 20;
+  }
+  
+  get name() {
+    return this._name;
+  }
+  
+  get department() {
+    return this._department;
+  }
+  
+  get remainingVacationDays() {
+    return this._remainingVacationDays;
+  }
+  
+  takeVacationDays(daysOff) {
+    this._remainingVacationDays -= daysOff;
+  }
+}
+
+const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
+const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
+
+console.log(surgeonCurry.name);
+surgeonCurry.takeVacationDays(3);
+console.log(surgeonCurry.remainingVacationDays);
+
+
+
+
+
+
+
 // Base Classes: Declarations & Expressions
 
 class Food {
@@ -63,3 +157,7 @@ console.log(halley.behavior); // Print behavior value to console
 halley.incrementBehavior(); // Add one to behavior
 console.log(halley.name); // Print name value to console
 console.log(halley.behavior); // Print behavior value to console
+
+
+
+
