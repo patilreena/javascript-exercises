@@ -191,6 +191,27 @@ class Nurse extends HospitalEmployee {
   }
 }
 
+// push method inside the getter
+class Nurse extends HospitalEmployee {
+  constructor(name, certifications) {
+    super(name);
+    this._certifications = certifications;
+  } 
+  
+  get name() {
+    return this._name;
+  }
+  
+  get certifications() {
+    return this._certifications;
+  }
+  
+  addCertification(newCertification) {
+    this._certifications.push(newCertification);
+  }
+  
+}
+
 
 
 
