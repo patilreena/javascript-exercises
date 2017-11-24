@@ -173,6 +173,25 @@ nurseOlynyk.takeVacationDays(5);
 console.log(nurseOlynyk.remainingVacationDays);
 
 
+// getter method
+
+
+class Nurse extends HospitalEmployee {
+  constructor(name, certifications) {
+    super(name);
+    this._certifications = certifications;
+  } 
+  
+  get name() {
+    return this._name;
+  }
+  
+  get certifications() {
+    return this._certifications;
+  }
+}
+
+
 
 
 
