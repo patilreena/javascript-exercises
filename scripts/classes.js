@@ -212,6 +212,20 @@ class Nurse extends HospitalEmployee {
   
 }
 
+// static methods
+
+class HospitalEmployee {
+  constructor(name) {
+    this._name = name;
+    this._remainingVacationDays = 20;
+  }
+  
+  static generatePassword() {
+    const randomNumber = Math.floor(Math.random() * 10000);
+    return randomNumber;
+  }
+}
+
 
 
 
