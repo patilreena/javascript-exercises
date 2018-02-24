@@ -1,5 +1,7 @@
-function takeOrder() {
-  alert('Order:Pizza');
+function takeOrder(topping, crustType) {
+  alert(
+    'Order:thin' + ' ' + crustType + ' ' + 'pizza topped with' + ' ' + topping
+  );
 }
 
-takeOrder();
+takeOrder('chicken', 'tomato');
